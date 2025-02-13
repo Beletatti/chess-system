@@ -29,4 +29,11 @@ public class Board {
         this.columns = columns;
     }
 
+    public Piece pieceAt(int row, int column) {
+        return pieces[row][column];
+    }
+
+    public Object piece(int i, int j) {
+        return null;
+    }
 }
